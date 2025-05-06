@@ -1,0 +1,45 @@
+Meeting Transcript: Acme Corp Website Redesign
+Date: May 3, 2025
+Participants: John (Acme), Sarah (Acme), Alex (Our Company), Maya (Our Company)
+
+[Start of Recording]
+
+Alex: Good morning everyone, thanks for joining today's call about the website redesign project. Let's start by going over what we've discussed previously and then map out next steps.
+
+John: Sounds good. We're excited to move forward with this.
+
+Sarah: Just as a reminder, our main goal is to completely refresh our website with a more modern design, improve the user experience for our customers, and make it easier to update content on our end.
+
+Maya: That's right. And based on our initial discovery meeting, we identified that you want to include an e-commerce section for your new product line, integrate with your customer service platform, and have a more robust content management system.
+
+John: Yes, and we also discussed a timeline of about 3 months for the full project, with the first phase being the design mockups.
+
+Alex: Exactly. We're aiming to have the design mockups ready for review by June 1st, then development to start by June 15th, with a beta launch by August 1st and full launch by August 15th.
+
+Sarah: One thing we didn't fully discuss was the budget. Our board has approved $75,000 for this project. Is that still in line with what you were thinking?
+
+Maya: That sounds workable for the scope we've discussed. We'll need to finalize the contract with those details, but that gives us a good framework.
+
+John: What about the content migration? Will that be included in the timeline and budget?
+
+Alex: We've factored in basic content migration. If you have hundreds of pages to migrate, we might need to adjust. Do you have a rough estimate of the content volume?
+
+Sarah: We have about 50 pages on our current site, plus about 100 product descriptions that would need to be set up in the new e-commerce section.
+
+Maya: That should be manageable within the current scope. We'll include that in our detailed project plan.
+
+John: Great. And for our point of contact, Sarah will be the main project manager on our side.
+
+Alex: Perfect. I'll be your main contact, with Maya handling the technical aspects. Let's set up a follow-up meeting for next Friday, May 10th, to go over the initial design concepts. Does that work for everyone?
+
+Sarah: That works for me.
+
+John: Yes, that's good.
+
+Maya: Wonderful. Before we wrap up, let's summarize the next steps. We'll prepare initial design concepts by next Friday. We'll also send over the contract with the details we discussed: $75,000 budget, 3-month timeline, e-commerce functionality, CMS integration, and content migration for approximately 150 pages.
+
+Sarah: That sounds perfect. Looking forward to seeing the initial designs.
+
+Alex: Great! We'll send the contract over by the end of today, and we'll see you next Friday. Thank you all for your time.
+
+[End of Recording]

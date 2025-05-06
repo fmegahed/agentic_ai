@@ -1,0 +1,30 @@
+2025-05-06 15:29:40,122 - httpx - INFO - HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-05-06 15:29:40,141 - httpx - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2025-05-06 15:29:40,154 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-05-06 15:30:13,266 - root - INFO - Starting Meeting Assistant
+2025-05-06 15:30:13,287 - root - INFO - Read transcript file: minutes\ACME_20250503.txt (2911 bytes)
+2025-05-06 15:30:13,288 - root - INFO - Extracted metadata - Client: ACME, Date: 20250503
+2025-05-06 15:30:13,288 - root - INFO - Started processing session for ACME on 20250503
+2025-05-06 15:30:13,296 - root - INFO - Read transcript file: minutes\ACME_20250503.txt (2911 bytes)
+2025-05-06 15:30:13,296 - root - INFO - Extracted metadata - Client: ACME, Date: 20250503
+2025-05-06 15:30:13,298 - root - INFO - Summarizing meeting transcript (2911 chars)
+2025-05-06 15:30:20,170 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-05-06 15:30:36,212 - root - INFO - Extracted 4 action items
+2025-05-06 15:30:36,215 - root - INFO - Summarization completed in 22.92s
+2025-05-06 15:30:36,489 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-05-06 15:30:47,123 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-05-06 15:30:54,429 - root - INFO - Updating contracts CSV
+2025-05-06 15:30:54,433 - root - INFO - Created new contracts CSV file
+2025-05-06 15:30:54,433 - root - INFO - Appended data for Acme Corp to CSV
+2025-05-06 15:30:54,441 - root - INFO - Saved summary to output/ACME_20250503_summary.txt
+2025-05-06 15:30:54,455 - root - INFO - Saved email to output/ACME_20250503_email.txt
+2025-05-06 15:30:54,467 - root - INFO - Marked file as processed: ACME_20250503.txt
+2025-05-06 15:30:54,470 - root - INFO - Completed processing in 41.18s with success=True
+2025-05-06 15:30:54,470 - root - INFO - Process stats: 4 action items, transcript length: 2911 chars, summary length: 755 chars
+2025-05-06 15:30:54,471 - root - INFO - Successfully processed meeting for ACME
+2025-05-06 15:32:06,299 - root - WARNING - Could not generate PNG diagram: Install pygraphviz to draw graphs: `pip install pygraphviz`.
+2025-05-06 15:32:06,321 - root - INFO - Workflow visualization saved as Mermaid to output/meeting_assistant_workflow.md
+2025-05-06 15:32:06,322 - root - INFO - Interactive HTML diagram created at output/meeting_assistant_workflow.html
+2025-05-06 15:33:11,141 - root - INFO - Starting Meeting Assistant
+2025-05-06 15:33:11,159 - root - INFO - All transcript files have already been processed
+2025-05-06 15:33:11,160 - root - INFO - No new files to process

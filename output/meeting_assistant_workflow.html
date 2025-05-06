@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meeting Assistant Workflow Diagram</title>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        h1 {
+            color: #333;
+        }
+        .diagram-container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Meeting Assistant Workflow Diagram</h1>
+    <div class="diagram-container">
+        <div class="mermaid">
+---
+config:
+  flowchart:
+    curve: linear
+---
+graph TD;
+	__start__([<p>__start__</p>]):::first
+	read_transcript(read_transcript)
+	summarize_meeting(summarize_meeting)
+	generate_email(generate_email)
+	extract_contract_data(extract_contract_data)
+	update_contracts_csv(update_contracts_csv)
+	save_outputs(save_outputs)
+	__end__([<p>__end__</p>]):::last
+	__start__ --> read_transcript;
+	extract_contract_data --> update_contracts_csv;
+	generate_email --> extract_contract_data;
+	read_transcript --> summarize_meeting;
+	summarize_meeting --> generate_email;
+	update_contracts_csv --> save_outputs;
+	save_outputs --> __end__;
+	classDef default fill:#f2f0ff,line-height:1.2
+	classDef first fill-opacity:0
+	classDef last fill:#bfb6fc
+
+        </div>
+    </div>
+</body>
+</html>

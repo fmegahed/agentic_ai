@@ -1,0 +1,11 @@
+## Meeting Summary: Acme Corp Website Redesign - May 3, 2025
+
+This meeting confirmed project scope and next steps for the Acme Corp website redesign. The primary goals are a modern design, improved user experience, and easier content management, including the addition of e-commerce functionality. The project timeline is estimated at 3 months, with key milestones including design mockups by June 1st, beta launch by August 1st, and full launch by August 15th. The approved budget is $75,000, which covers the scope discussed, including content migration for approximately 150 pages. Sarah (Acme) will be the main project manager on the client side, and Alex (Our Company) will be the main contact, with Maya (Our Company) handling technical aspects.
+
+##
+
+Action Items:
+- * **Our Company (Alex):** Send over the contract detailing the $75,000 budget, 3-month timeline, e-commerce functionality, CMS integration, and content migration for ~150 pages – **Due: End of Day Today**
+- * **Our Company (Alex & Maya):** Prepare initial design concepts for review – **Due: Next Friday, May 10th**
+- * **Acme Corp (Sarah):** Act as main project manager on the client side.
+- * **Both Teams:** Attend follow-up meeting on **Friday, May 10th** to review initial design concepts.
