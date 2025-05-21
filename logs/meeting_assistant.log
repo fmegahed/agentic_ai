@@ -28,3 +28,39 @@
 2025-05-06 15:33:11,141 - root - INFO - Starting Meeting Assistant
 2025-05-06 15:33:11,159 - root - INFO - All transcript files have already been processed
 2025-05-06 15:33:11,160 - root - INFO - No new files to process
+2025-05-15 14:33:03,473 - httpx - INFO - HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-05-15 14:33:03,488 - httpx - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2025-05-15 14:33:03,498 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-05-15 14:33:29,972 - root - INFO - Starting Meeting Assistant
+2025-05-15 14:33:29,992 - root - INFO - All transcript files have already been processed
+2025-05-15 14:33:29,992 - root - INFO - No new files to process
+2025-05-21 09:42:28,566 - httpx - INFO - HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-05-21 09:42:28,586 - httpx - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2025-05-21 09:42:28,662 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-05-21 09:43:10,084 - root - INFO - Starting Meeting Assistant
+2025-05-21 09:43:10,192 - root - INFO - Read transcript file: minutes\ACME_20250503.txt (2911 bytes)
+2025-05-21 09:43:10,192 - root - INFO - Extracted metadata - Client: ACME, Date: 20250503
+2025-05-21 09:43:10,192 - root - INFO - Started processing session for ACME on 20250503
+2025-05-21 09:43:10,199 - root - INFO - Read transcript file: minutes\ACME_20250503.txt (2911 bytes)
+2025-05-21 09:43:10,200 - root - INFO - Extracted metadata - Client: ACME, Date: 20250503
+2025-05-21 09:43:10,202 - root - INFO - Summarizing meeting transcript (2911 chars)
+2025-05-21 09:43:16,629 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-05-21 09:43:31,455 - root - INFO - Extracted 4 action items
+2025-05-21 09:43:31,456 - root - INFO - Summarization completed in 21.25s
+2025-05-21 09:43:31,708 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-05-21 09:43:41,841 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-05-21 09:43:49,022 - root - INFO - Updating contracts CSV
+2025-05-21 09:43:49,027 - root - INFO - Created new contracts CSV file
+2025-05-21 09:43:49,027 - root - INFO - Appended data for Acme Corp to CSV
+2025-05-21 09:43:49,042 - root - INFO - Saved summary to output/ACME_20250503_summary.txt
+2025-05-21 09:43:49,054 - root - INFO - Saved email to output/ACME_20250503_email.txt
+2025-05-21 09:43:49,064 - root - INFO - Marked file as processed: ACME_20250503.txt
+2025-05-21 09:43:49,068 - root - INFO - Completed processing in 38.87s with success=True
+2025-05-21 09:43:49,068 - root - INFO - Process stats: 4 action items, transcript length: 2911 chars, summary length: 755 chars
+2025-05-21 09:43:49,069 - root - INFO - Successfully processed meeting for ACME
+2025-05-21 09:44:39,228 - root - WARNING - Could not generate PNG diagram: Install pygraphviz to draw graphs: `pip install pygraphviz`.
+2025-05-21 09:44:39,248 - root - INFO - Workflow visualization saved as Mermaid to output/meeting_assistant_workflow.md
+2025-05-21 09:44:39,248 - root - INFO - Interactive HTML diagram created at output/meeting_assistant_workflow.html
+2025-05-21 09:45:14,686 - root - INFO - Starting Meeting Assistant
+2025-05-21 09:45:14,713 - root - INFO - All transcript files have already been processed
+2025-05-21 09:45:14,713 - root - INFO - No new files to process
